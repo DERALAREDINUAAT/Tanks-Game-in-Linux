@@ -24,3 +24,14 @@ Semaphores are used to synchronize access to the shared game state and avoid rac
 ## Compile
 ```bash
 gcc tanks.c -o tanks -lncurses
+```
+
+## Run
+```bash
+./tanks board1 A w s a d f
+./tanks board1 B i k j l o
+```
+
+## Notes
+- Developed as part of an Operating Systems course
+- Tested in a Linux (Ubuntu) virtual machine environment
